@@ -3,10 +3,8 @@ Chapter 2 Incident Response, Business Continuity and Disaster, Recovery Concepts
 ## Module 1: Understand Incident Response
 
 ### Incident Terminology
-* **Breach**: The **loss of control, compromise, unauthorized disclosure, unauthorized acquisition**, 
-or any similar occurrence where: an **unauthorized user accesses** or **potentially accesses** personally identifiable information; 
-or an authorized user accesses personally identifiable information **for other than an authorized purpose**.
-* **Event**: Any**observable occurrence** in a network or system.
+* **Breach**: The **loss of control, compromise, unauthorized disclosure, unauthorized acquisition**/ **unauthorized user accesses** /**potentially accesses**/ Authorized user but not aurhorized purpose.
+* **Event**: Any **observable occurrence** in a network or system.
 * **Exploit**: A particular attack. It is named this way because these attacks exploit system **vulnerabilities**.
 * **Incident**: An event that **actually or potentially jeopardizes** the **confidentiality, integrity or availability** of an information system or 
 the information the system **processes, stores or transmits**.
@@ -26,10 +24,10 @@ modification of information and/or denial of service.
 
 ### Components of the Incident Response Plan
 #### Preparation
-* Develop a policy approved by management.
-* Identify critical data and systems, single points of failure.
-* Train staff on incident response.
-* Implement an incident response team. (covered in subsequent topic)
+* Develop a **policy **approved by management.
+* **Identify critical data and systems**, single points of failure.
+* **Train** staff on incident response.
+* **Implement** an incident response team. (covered in subsequent topic)
 * Practice Incident Identification. (First Response)
 * Identify Roles and Responsibilities.
 * Plan the coordination of communication between stakeholders.
@@ -60,7 +58,7 @@ They are the first ones on the scene and know how to differentiate typical IT pr
 * Public affairs/communications representatives
 * Engineering representatives (system and network)
 
-<br />Computer incident response teams (CIRTs) four primary responsibilities:\
+<br />Computer incident response teams (CIRTs) four primary responsibilities:
 * Determine the **amount and scope of damage** caused by the incident.
 * Determine whether any confidential information was **compromised** during the incident.
 * Implement any **necessary recovery procedures** to restore security and recover from incident-related damage.
@@ -89,11 +87,11 @@ no access to electronic backups.
 * Guides the actions of emergency response personnel until the end goal is reached.(Restore to full last-known reliable operations.)
 
 ### Components of a Disaster Recovery Plan
-he following list includes various types of documents worth considering:
+The following list includes various types of documents worth considering:
 * **Executive summary** providing a **high-level overview** of the plan
 * **Department-specific** plans
 * **Technical guides** for IT personnel responsible for implementing and maintaining critical backup systems
 * **Full copies of the plan** for critical disaster recovery team members
-* ** Managers and public relations personnel** will have simple-to-follow, high-level documents to help them communicate the issue accurately without 
+* **Managers and public relations personnel** will have simple-to-follow, high-level documents to help them communicate the issue accurately without 
 requiring input from team members who are busy working on the recovery. 
 
