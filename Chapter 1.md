@@ -122,7 +122,7 @@ Type of Security  Controls:
 
 ### Governance Elements
 Systems and structures that the organization will use to achieve its goals, they are guided by laws and regulations created by governments to enact public policy.<br />
-![Governance] (https://learn.isc2.org//content/enforced/9541-CC-SPT-GLOBAL-1ED-1M/build/chapter_01/assets/EDU-ELCC-70060-techart-governance_compilation-v01.svg)
+![Governance](https://learn.isc2.org//content/enforced/9541-CC-SPT-GLOBAL-1ED-1M/build/chapter_01/assets/EDU-ELCC-70060-techart-governance_compilation-v01.svg)
 
 Short summary of each elements in reverse:
 * **Procedures**: The detailed steps to **complete a task** that support departmental or organizational **policies**.
