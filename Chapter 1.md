@@ -1,4 +1,4 @@
-Chapter 1
+Chapter 1 Security Principles
 ---------
 ## Module 1: Understand the Seucirty Concepts of Information Assurance
 
@@ -97,7 +97,7 @@ Prioritize and analyze core risks through:
 * **Quantitative risk analysis**: Statistical probabilities and moneterized valuation of loss or gain
 
 
-![risk matrix](https://learn.isc2.org//content/enforced/9541-CC-SPT-GLOBAL-1ED-1M/build/chapter_01/assets/EDU-ELCC-70063-techart-risk_management-v01.svg?_&d2lSessionVal=RuNLDMWW9bngL8C4Vv9uRbjrk&ou=9541)
+![risk matrix](https://learn.isc2.org//content/enforced/9541-CC-SPT-GLOBAL-1ED-1M/build/chapter_01/assets/EDU-ELCC-70063-techart-risk_management-v01.svg)
 **Low likelihood** and a **low impact** might result in a **low priority** <br/>
 **High likelihood** and **high impact** will result in a **high priority**
 
@@ -122,7 +122,7 @@ Type of Security  Controls:
 
 ### Governance Elements
 Systems and structures that the organization will use to achieve its goals, they are guided by laws and regulations created by governments to enact public policy.
-![Governance] (https://learn.isc2.org//content/enforced/9541-CC-SPT-GLOBAL-1ED-1M/build/chapter_01/assets/EDU-ELCC-70060-techart-governance_compilation-v01.svg?_&d2lSessionVal=RuNLDMWW9bngL8C4Vv9uRbjrk&ou=9541)
+![Governance] (https://learn.isc2.org//content/enforced/9541-CC-SPT-GLOBAL-1ED-1M/build/chapter_01/assets/EDU-ELCC-70060-techart-governance_compilation-v01.svg)
 
 Short summary of each elements in reverse:
 * **Procedures**: The detailed steps to **complete a task** that support departmental or organizational **policies**.
