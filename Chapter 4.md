@@ -122,7 +122,7 @@ Insecure Port | Description | Protocol | Secure Alternative | Protocol |
 ### Types of Threats
 * **Spoofing**: **Gaining access** to a target system through the use of a **falsified identity**. E.g.  IP addresses, MAC address, usernames, system names, wireless network SSIDs, email addresses
 * **Phising**: Attempts to **misdirect legitimate users** to **malicious websites** through the abuse of URLs or hyperlinks in emails could be considered phishing.
-* **DoS/DDoS**: Network resource consumption attack that has the primary goal of preventing legitimate activity on a victimized system.
+* **DoS/DDoS**: Network resource consumption attack that has the primary goal of **preventing legitimate activity** on a victimized system.
 * **Virus**: Propagation and destruction. A virus is a **self-replicating** piece of code that spreads **without the consent** of a user, but frequently with their assistance (a user has to **click** on a link or **open** a file). 
 * **Worm**: They propagate themselves without requiring any human intervention.
 * **Trojan**: A software program that **appears benevolent** but carries a **malicious payload** that has the potential to wreak havoc on a system or network
@@ -229,10 +229,10 @@ Insecure Port | Description | Protocol | Secure Alternative | Protocol |
 * Zero trust builds more effective gates to protect the assets directly rather than building additional or higher walls. 
 
 #### Network Access Control (NAC)
-* Provide the network visibility needed for access security and may later be used for incident response
-* Provide isolation for noncompliant devices within a quarantined network
-* Provide a mechanism to “fix” the noncompliant elements, such as turning on endpoint protection
-* Devices wishing to join the network has to comply with the requirements laid out in the organization policies.
+* Provide the **network visibility** needed for **access security** and may later be used for **incident response**.
+* Provide **isolation for noncompliant devices** within a quarantined network
+* Provide a mechanism to "fix" the noncompliant elements, such as turning on endpoint protection
+* Devices wishing to join the network **has to comply with the requirements** laid out in the organization **policies**.
 * Let’s consider some possible use cases for NAC deployment: 
 	* Medical devices
 	* IoT devices
@@ -246,3 +246,17 @@ Insecure Port | Description | Protocol | Secure Alternative | Protocol |
 * Should be segmented into another network.
 
 ![embedded_systems_iot](Images/embedded_systems_iot.svg)
+
+#### VLAN
+![vlan](Images/vlan.svg)
+
+* Software-based LAN segments
+* Communications between VLANs must be enabled
+* Broadcast traffic is limited to the VLAN, reducing congestion and reducing the effectiveness of some attacks
+* VLAN hopping: allow a malicious user to see traffic from other VLANs
+
+#### VPN
+* Not necessarily an encrypted tunnel
+* Simply a point-to-point connection between two hosts that allows them to communicate
+* Organizations use gateway-to-gateway VPNs to securely transmit information over the internet between sites or even with business partners. 
+
