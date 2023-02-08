@@ -42,7 +42,7 @@ Example:
 
 #### Terminology
 * **Payload**: The primary action of a malicious code attack.
-* ** Encapsulation**: Bundling data and methods, can also refer as packing or hiding in another data structure.
+* **Encapsulation**: Bundling data and methods, can also refer as packing or hiding in another data structure.
 * **de-encapsulation**: The opposite process of encapsulation, in which bundles of data are unpacked or revealed.
 
 ### TCP/IP
