@@ -118,3 +118,131 @@ Insecure Port | Description | Protocol | Secure Alternative | Protocol |
 445 - SMB | Files are transmitted unencrypted, and many vulnerabilities are well-known | Server Message Block |  Block	2049 - NFS | Network File System |
 389 - LDAP | Used to communicate directory information from servers to clients, not encrypted | Lightweight Directory Access Protocol | 636 - LDAPS | 	Lightweight Directory Access Protocol Secure |
 
+## Module 2: Understand Network (Cyber) Threats and Attacks
+### Types of Threats
+* **Spoofing**: **Gaining access** to a target system through the use of a **falsified identity**. E.g.  IP addresses, MAC address, usernames, system names, wireless network SSIDs, email addresses
+* **Phising**: Attempts to **misdirect legitimate users** to **malicious websites** through the abuse of URLs or hyperlinks in emails could be considered phishing.
+* **DoS/DDoS**: Network resource consumption attack that has the primary goal of preventing legitimate activity on a victimized system.
+* **Virus**: Propagation and destruction. A virus is a **self-replicating** piece of code that spreads **without the consent** of a user, but frequently with their assistance (a user has to **click** on a link or **open** a file). 
+* **Worm**: They propagate themselves without requiring any human intervention.
+* **Trojan**: A software program that **appears benevolent** but carries a **malicious payload** that has the potential to wreak havoc on a system or network
+* **On-path Attack**: Aka MITM, attackers place themselves **between** two devices, to **intercept or modify** information
+* **Side-channel**: Passive, noninvasive attack to **observe** the operation of a devices
+* **Advanced persistent threat (APT)**:  Threats that demonstrate an unusually **high level of technical** and operational sophistication spanning **months or even years**
+* **Insider Threat**: Treats from individuals who are trusted by the organization. Not always willing participants, like fell for a scam
+* **Malware**: A program that is inserted into a system, to compromise CIA
+* **Ransomware**: Use cryptography to "lock" the files, require payment of a ransom fee to "unlock"
+
+### Intrusion Detection System (IDS)
+* Monitors recorded information and real-time events to **detect abnormal activity** indicating a potential incident or intrusion
+* Automates the inspection of logs
+* Part of a defense-in-depth security plan
+* Complement firewalls but not replace them
+* Recognize attacks that come from external connections (Internet)
+* Respond by sending alerts or raising alarms
+* Host-based or Netowrk-based
+
+### Preventing Threats
+* Keep systems and applications up to date. 
+* Remove or disable unneeded services and protocols.
+* Use intrusion detection and prevention systems.
+* Use up-to-date anti-malware software.
+* Use firewalls.
+
+## Module 3: Understand Network Security Infrastructure
+### Redundancy
+* Duplicate components so that if a failure were to occur, there would be a backup
+* Example two power supplies connected to diverse power sources
+![redundancy](Images/redundancy.svg)
+
+### Memorandum of Understanding (MOU)/Memorandum of Agreement (MOA) 
+* To minimize downtime and enhance BC (Business Continuity) and DR (Disaster Recovery) capabilities
+* If one of the parties experiences an emergency and cannot operate within their own facility, the other party will share its resources
+* These agreements are called joint operating agreements (JOA) or MOA/MOU
+
+### Cloud
+![cloud](Images/cloud.svg)
+* Cloud computing is usually associated with an internet-based set of computing resources, and typically sold as a service, provided by a cloud service provider (CSP). 
+
+#### Characteristics
+* Usage is metered and priced according to units (or instances) consumed
+* Reduced cost of ownership. No need to buy any assets for everyday use, No loss of asset value over time, no maintenance and support cost
+* Reduced energy and cooling cost
+* Allows an enterprise to scale up new software or data-based services/solutions through cloud systems quickly and without having to install massive hardware locally
+
+#### Service Models
+* SaaS:  A cloud provides access to software applications such as email or office productivity tools.
+* PaaS: A cloud provides an environment for customers to use to build and operate their own software. 
+* IaaS: A cloud provides network access to traditional computing resources such as processing power and storage. 
+
+#### Deployment Models
+* Public: Open to the public
+* Private: Developed and deployed for a private organization that builds its own cloud.
+* Hybrid: combining two forms of cloud computing deployment models, typically a public and private cloud.
+* Community: Community clouds can be either public or private.
+
+#### Managed Service Provider (MSP)
+* Manages information technology assets for another company.
+* Manage day-to-day operations or to provide expertise.
+* May provide network and security monitoring and patching services.
+* Managed detection and response (MDR) service, where a vendor monitors firewall and other security tools to provide expertise in triaging events.
+
+#### Service-Level Agreement (SLA)
+* An agreement between a cloud service provider and a cloud service customer with cloud specific terms
+* Characterizes quality of the cloud services delivered in terms of a set of measurable properties:
+	* Cloud system infrastructure details and security standards
+	* Customer right to audit legal and regulatory compliance by the CSP         
+	* Rights and costs associated with continuing and discontinuing service use
+	* Service availability
+	* Service performance
+	* Data security and privacy
+	* Disaster recovery processes
+	* Data location
+	* Data access
+	* Data portability
+	* Problem identification and resolution expectations
+	* Change management processes
+	* Dispute mediation processes
+	* Exit strategy 
+
+### Network Design
+* **Network Segmentation**: **Isolated** from all outside communications, transactions can **only occur between devices within the segmented network**.
+* **Demilitarized Zone (DMZ)**: Designed to be accessed by **outside visitors** but is still **isolated from the private network** of the organization.
+* **VLAN**: VLANs are created by switches to **logically segment a network** without altering its physical topology.
+* **VPN**: **Communication tunnel** that provides **point-to-point transmission of both authentication and data traffic over an untrusted network.
+* **Defense in Depth**: Multiple types of access controls in literal or theoretical layers to help an organization avoid a monolithic security stance.
+* **NAC**: A concept of controlling access to an environment through strict adherence to and implementation of security policy.
+
+#### Defense in Depth
+* **Data**: Controls that protect the actual data with technologies such as encryption, data leak prevention, identity and access management and data controls.
+* **Application**: Controls that protect the application itself with technologies such as data leak prevention, application firewalls and database monitors.
+* **Host**: Every control that is placed at the endpoint level, such as antivirus, endpoint firewall, configuration and patch management.
+* **Internal network**: Controls that are in place to protect uncontrolled data flow and user access across the organizational network. Relevant technologies include intrusion detection systems, intrusion prevention systems, internal firewalls and network access controls.
+* **Perimeter**: Controls that protect against unauthorized access to the network. This level includes the use of technologies such as gateway firewalls, honeypots, malware analysis and secure demilitarized zones (DMZs).
+* **Physical**: Controls that provide a physical barrier, such as locks, walls or access control.
+* **Policies, procedures and awareness**: Administrative controls that reduce insider threats (intentional and unintentional) and identify risks as soon as they appear. 
+
+![defense_in_depth2](Images/defense_in_depth2.svg)
+
+#### Zero Trust
+* Microsegmented networks: firewalls at nearly every connecting point.
+* Zero trust builds more effective gates to protect the assets directly rather than building additional or higher walls. 
+
+#### Network Access Control (NAC)
+* Provide the network visibility needed for access security and may later be used for incident response
+* Provide isolation for noncompliant devices within a quarantined network
+* Provide a mechanism to “fix” the noncompliant elements, such as turning on endpoint protection
+* Devices wishing to join the network has to comply with the requirements laid out in the organization policies.
+* Let’s consider some possible use cases for NAC deployment: 
+	* Medical devices
+	* IoT devices
+	* BYOD/mobile devices (laptops, tablets, smartphones)
+	* Guest users and contractors
+
+#### Segmentation for Embedded Systems and IoT
+* **Embedded system**: A computer implemented as part of a larger system.
+* **Internet of Things (IoT)**: The collection of devices that can communicate over the internet with one another or with a control console in order to affect and monitor the real world. 
+* Need to ensure not used in a malicious manner.
+* Should be segmented into another network.
+
+![embedded_systems_iot](Images/embedded_systems_iot.svg)
