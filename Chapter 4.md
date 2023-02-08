@@ -30,7 +30,7 @@ Those simple goals can be re-expressed in network (and security) terms such as:
 * To establish a **common way** to describe the communication structure for interconnected computer systems.
 * Theoritical model, abstract framework
 
-![Images/osi.svg]
+![osi](Images/osi.svg)
 
 Example:
 * When someone references an image file like a JPEG or PNG, we are talking about the Presentation Layer (6). 
@@ -61,7 +61,7 @@ Transport Layer | Permits data to move among devices |
 Internet Layer  | Creates/inserts packets |
 Network Interface Layer | How data moves through the network |
 
-![Images/tcpip.svg]
+![tcpip](Images/tcpip.svg)
 
 ### Internet Protocol (IPv4 and IPv6)
 IPv4:
