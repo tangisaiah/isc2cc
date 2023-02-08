@@ -90,8 +90,8 @@ In DAC, the policy specifies that a subject who has been granted access to infor
 ![acl](Images/acl.svg)
 
 ### Mandatory Access Control (MAC)
-Only properly designated *security administrators*, as *trusted* subjects, can *modify any of the security rules* that are established for subjects and objects within the system. 
-Subject is *constrained* from doing any of the following
+Only properly designated **security administrators**, as **trusted** subjects, can **modify any of the security rules** that are established for subjects and objects within the system. 
+Subject is **constrained** from doing any of the following
 * Passing the information to unauthorized subjects or objects 
 * Granting its privileges to other subjects 
 * Changing one or more security attributes on subjects, objects, the information system or system components 
@@ -102,5 +102,5 @@ Subject is *constrained* from doing any of the following
 Although MAC sounds very similar to DAC, the primary difference is who can control access. With Mandatory Access Control, 
 it is mandatory for **security administrators to assign access rights or permissions**; with Discretionary Access Control, it is up to the object owner’s discretion. 
 
-#### Role-Based Access Control  (RBAC)
+#### Role-Based Access Control (RBAC)
 As the name suggests, sets up user permissions based on roles. Each role represents users with similar or identical permissions.  
