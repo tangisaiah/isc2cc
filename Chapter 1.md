@@ -8,7 +8,7 @@ Chapter 1 Security Principles
 * **Availability** means that systems and data are **accessible at the time users need them**.
 
 #### Terminology
-* **Perosnally Identifiable Information (PII)**: Data about an individual that could be used to **identify** them.
+* **Personally Identifiable Information (PII)**: Data about an individual that could be used to **identify** them.
 * **Protected Health Information (PHI)**: One’s health status
 * **Classified**:  Sensitive information. e.g. trade secrets, research, business plans and intellectual property.
 * **Sensitivity**: A measure of the importance assigned to information by its owner, or the purpose of denoting its **need for protection**.
@@ -115,7 +115,7 @@ The implementation of controls should reduce risk, hopefully to an acceptable 
 <br />
 Type of Security  Controls:
 * **Physical controls**: Process-based security, **using physical hardware devices**, such as badge readers, architectural features of buildings and facilities, and specific security actions to be taken by people.
-* **Technical Controls** (logical controls): Security controls that **computer systems* and **networks** directly implement. These controls can provide automated protection from unauthorized access or misuse, facilitate detection of security violations and support security requirements for applications and data. 
+* **Technical Controls** (logical controls): Security controls that **computer systems** and **networks** directly implement. These controls can provide automated protection from unauthorized access or misuse, facilitate detection of security violations and support security requirements for applications and data. 
 * **Administrative Controls** (managerial controls): **Directives, guidelines or advisories** aimed at the people within the organization. They provide **frameworks, constraints and standards** for human behavior, and should cover the entire scope of the organization’s activities and its interactions with external parties and stakeholders.
 
 ## Module 4: Understand Governance Elements and Processes

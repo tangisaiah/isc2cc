@@ -14,7 +14,7 @@ access to a system or system resource **without authorization**.
 organizational assets, individuals, other organizations or the nation through an information system via unauthorized access, destruction, disclosure, 
 modification of information and/or denial of service.
 * **Vulnerability**: **Weakness** in an information system, system security procedures, internal controls or implementation that could be exploited by a threat source.
-* **Zero Day**: A **previously unknown system vulnerability** with the potential of exploitation** without risk of detection or prevention** because it does not, in general, fit recognized patterns, signatures or methods.
+* **Zero Day**: A **previously unknown system vulnerability** with the potential of exploitation **without risk of detection or prevention** because it does not, in general, fit recognized patterns, signatures or methods.
 
 ### The Goal of Incident Response
 * It's **inevitable** that adverse events will happen that have the potential to affect the business mission or objectives.
@@ -24,7 +24,7 @@ modification of information and/or denial of service.
 
 ### Components of the Incident Response Plan
 #### Preparation
-* Develop a **policy **approved by management.
+* Develop a **policy** approved by management.
 * **Identify critical data and systems**, single points of failure.
 * **Train** staff on incident response.
 * **Implement** an incident response team. (covered in subsequent topic)
